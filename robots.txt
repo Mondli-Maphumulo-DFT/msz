@@ -1,0 +1,22 @@
+# MSZ Freight & Logistics — robots.txt
+# https://msz.co.za
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://msz.co.za/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
+
+# Allow major search engines full access
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
